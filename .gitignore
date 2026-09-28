@@ -1,0 +1,12 @@
+.DS_Store
+node_modules
+.gitignore
+
+# JSON in chiaro degli esami e degli utenti: mai committati
+originals/
+
+# Script di cifratura e chiavi: mai committati
+tools/
+
+# Note di lavoro interne, non per la repo pubblica
+handoff.md

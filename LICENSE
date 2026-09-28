@@ -1,0 +1,95 @@
+Proprietary Closed-Source License
+Copyright (c) 2026 Veronesi Lorenzo (vlT)
+All rights reserved.
+
+────────────────────────────────────────────────────────────
+
+SCOPE
+
+This license governs the content and code of examgrid.exams ("the
+Repository"): the static registry of exam manifests, encrypted exam
+files and access data consumed by examgrid. It does not grant, and is
+not required for, ordinary access to the examgrid web application at
+its official deployment: the web app itself is freely accessible to the
+public, without any license, account, or fee, simply as an end user
+browsing the site.
+
+────────────────────────────────────────────────────────────
+
+CLOSED SOURCE — NO PUBLIC ACCESS GRANTED
+
+The Repository is closed source. It is not source-available, is not
+published for review or study, and no license to access, inspect, or
+use its content is granted to the public under any circumstance. The
+fact that the Repository, or any file within it, may be technically
+reachable at a public URL (including but not limited to GitHub or any
+raw-content mirror of it) does not constitute publication, disclosure
+into the public domain, or a license grant of any kind. Any access
+obtained outside an explicit, individually granted written permission
+from the copyright holder is unauthorized, regardless of how it was
+obtained.
+
+────────────────────────────────────────────────────────────
+
+RESTRICTIONS
+
+Regardless of how access to the Repository was obtained — including
+unauthorized access — the following are strictly prohibited without the
+prior written permission of the copyright holder:
+
+1. NO MODIFICATION — The content and code may not be modified, adapted,
+   translated, or used as the basis for derivative works, in whole or in
+   part.
+
+2. NO REPLICATION OR REDISTRIBUTION — The Repository, whether in source
+   or binary form, may NOT be copied, cloned, mirrored, forked,
+   replicated, republished, sublicensed, or repackaged, in whole or in
+   part, under any circumstance. Creating or hosting a copy of this
+   Repository — including a private copy, a fork, or a redistribution of
+   its content elsewhere — is a violation of this license regardless of
+   intent or purpose.
+
+3. NO REVERSE ENGINEERING — Reverse engineering, decompilation,
+   disassembly, or any attempt to reconstruct the encrypted content from
+   the published files is strictly prohibited, except as required by
+   applicable mandatory law.
+
+4. NO COMMERCIAL EXPLOITATION — The Repository may NOT be sold,
+   commercialized, incorporated into a commercial product or service, or
+   used to provide a paid service to third parties.
+
+────────────────────────────────────────────────────────────
+
+INTELLECTUAL PROPERTY
+
+All intellectual property rights — including but not limited to
+copyright, trade secrets, know-how, and any applicable patents — remain
+exclusively with Veronesi Lorenzo (vlT). Public access to the web app
+grants no ownership rights of any kind over the Repository. The name,
+logos, and any associated trade dress of this software are the
+exclusive property of Veronesi Lorenzo (vlT) and may not be used without
+prior written consent.
+
+────────────────────────────────────────────────────────────
+
+DISCLAIMER OF WARRANTIES
+
+THE REPOSITORY IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES,
+OR OTHER LIABILITY — WHETHER IN CONTRACT, TORT, OR OTHERWISE — ARISING
+FROM OR IN CONNECTION WITH THE REPOSITORY OR THE USE OR OTHER DEALINGS
+IN THE REPOSITORY.
+
+────────────────────────────────────────────────────────────
+
+GOVERNING LAW
+
+This license is governed by the laws of Italy. Any dispute arising from
+or relating to this license shall be subject to the exclusive
+jurisdiction of the courts of Milan (MI), Italy.
+
+────────────────────────────────────────────────────────────
+
+For licensing inquiries or permission requests: veronesilorenzo@outlook.com

@@ -1,0 +1,72 @@
+{
+  "manifestVersion": "1.0.0",
+  "categories": {
+    "linux-redhat": {
+      "icon": "command-line"
+    },
+    "proxmox": {
+      "icon": "server"
+    },
+    "vmware-vsphere": {
+      "icon": "server-stack"
+    }
+  },
+  "exams": [
+    {
+      "id": "rh066x",
+      "code": "EG-LNX-101",
+      "title": "RH066X",
+      "category": "linux-redhat",
+      "icon": "command-line",
+      "duration": 30,
+      "questionCount": 30,
+      "description": {
+        "it": "Amministrazione base di sistemi Linux/Red Hat: file system, processi, utenti, permessi, servizi systemd e strumenti di rete essenziali.",
+        "en": "Basic Linux/Red Hat system administration: the filesystem, processes, users, permissions, systemd services and essential network tools."
+      },
+      "url": "exams/linux-redhat/RH066X.enc.json"
+    },
+    {
+      "id": "proxmoxbasics",
+      "code": "EG-PVE-101",
+      "title": "ProxmoxBasics",
+      "category": "proxmox",
+      "icon": "server",
+      "duration": 30,
+      "questionCount": 35,
+      "description": {
+        "it": "Fondamenti di Proxmox VE: KVM e LXC, clustering e quorum, live migration, storage ZFS/Ceph, backup, alta disponibilità e strumenti da riga di comando.",
+        "en": "Proxmox VE fundamentals: KVM and LXC, clustering and quorum, live migration, ZFS/Ceph storage, backup, high availability and command-line tools."
+      },
+      "url": "exams/proxmox/ProxmoxBasics.enc.json"
+    },
+    {
+      "id": "2v0-17.25",
+      "code": "2V0-17.25",
+      "title": "VMware Cloud Foundation 9.0 Administrator",
+      "category": "vmware-vsphere",
+      "icon": "server-stack",
+      "duration": 135,
+      "questionCount": 100,
+      "description": {
+        "it": "Amministrazione avanzata di VMware Cloud Foundation 9.0: VCF Operations, VCF Automation, networking NSX, storage vSAN, workload domain e servizi Kubernetes (VKS).",
+        "en": "Advanced VMware Cloud Foundation 9.0 administration: VCF Operations, VCF Automation, NSX networking, vSAN storage, workload domains and Kubernetes (VKS) services."
+      },
+      "url": "exams/vmware-vsphere/2V0-17.25.enc.json"
+    },
+    {
+      "id": "vspherebasics",
+      "code": "EG-VMW-101",
+      "title": "vSphereBasics",
+      "category": "vmware-vsphere",
+      "icon": "server-stack",
+      "duration": 30,
+      "questionCount": 35,
+      "description": {
+        "it": "Fondamenti di VMware vSphere: ESXi, vCenter, vMotion, storage, snapshot, HA/DRS/Fault Tolerance e gestione base dell'infrastruttura virtuale.",
+        "en": "VMware vSphere fundamentals: ESXi, vCenter, vMotion, storage, snapshots, HA/DRS/Fault Tolerance and basic virtual infrastructure management."
+      },
+      "url": "exams/vmware-vsphere/vSphereBasics.enc.json"
+    }
+  ]
+}
