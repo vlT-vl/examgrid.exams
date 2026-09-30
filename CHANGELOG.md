@@ -19,6 +19,9 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
   `vmware` e nell'indice del catalogo.
 - Categoria `vmware-vsphere` rinominata in `vmware` (solo l'identificativo,
   il contenuto degli esami non cambia).
+- Aggiunta la foto profilo per 7 dei 8 account (link diretto, nessun file caricato nel
+  registro); chi non ne ha una resta con l'icona generica come prima.
+- Account `admin` rinominato con il nome nominale del titolare invece della generica "Admin".
 
 ## 2026-09-28
 

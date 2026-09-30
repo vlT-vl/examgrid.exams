@@ -46,7 +46,8 @@ The user/access list sits outside `exams/`: it carries the accounts authorized t
 Each account also carries per-user capabilities: `canRevealAnswers` controls access to correct
 answers, `canRandomizeQuestions` controls question randomization, and `canChooseRange` controls
 choosing the question range. The latter two are granted together with answer visibility; users
-without answer visibility do not receive either capability.
+without answer visibility do not receive either capability. An optional `avatarUrl` links to a
+profile picture shown in the app; accounts without one fall back to a generic icon.
 
 ## Architecture
 
