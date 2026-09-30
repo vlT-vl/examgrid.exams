@@ -41,6 +41,10 @@ users.*
 
 `exams/index.json` is the authoritative source for each exam's code, duration and question count.
 
+The VMware catalog includes `2V0-41.24` (VMware NSX 4.X Professional V2); answer-key revisions
+are applied from the maintainer's review data when supplied. Its first XLS-based review updated
+18 answer keys while preserving all other question and option text.
+
 The user/access list sits outside `exams/`: it carries the accounts authorized to use examgrid and which exams each one can see.
 
 Each account also carries per-user capabilities: `canRevealAnswers` controls access to correct

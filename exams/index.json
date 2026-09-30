@@ -95,6 +95,20 @@
       "url": "exams/vmware/2V0-17.25.enc.json"
     },
     {
+      "id": "2v0-41.24",
+      "code": "2V0-41.24",
+      "title": "VMware NSX 4.X Professional V2",
+      "category": "vmware",
+      "icon": "vmware",
+      "duration": 135,
+      "questionCount": 115,
+      "description": {
+        "it": "Installazione, configurazione, amministrazione e troubleshooting di VMware NSX 4.x: networking, sicurezza, firewall, VPN, routing, load balancing e NSX Application Platform.",
+        "en": "VMware NSX 4.x installation, configuration, administration and troubleshooting: networking, security, firewalls, VPN, routing, load balancing and NSX Application Platform."
+      },
+      "url": "exams/vmware/2V0-41.24.enc.json"
+    },
+    {
       "id": "vspherebasics",
       "code": "EG-VMW-101",
       "title": "vSphereBasics",

@@ -22,6 +22,14 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
 - Aggiunta la foto profilo per 7 dei 8 account (link diretto, nessun file caricato nel
   registro); chi non ne ha una resta con l'icona generica come prima.
 - Account `admin` rinominato con il nome nominale del titolare invece della generica "Admin".
+- Importato l'esame VMware NSX 4.X Professional V2 `2V0-41.24`, con codice
+  ufficiale preservato, 115 quesiti e durata di 135 minuti, nella categoria
+  `vmware`; le chiavi restano quelle del PDF in attesa della revisione XLS.
+- Riviste con `NSX.xlsx` le chiavi di risposta di `2V0-41.24`: aggiornati 18
+  quesiti, lasciati invariati gli altri e mantenuti i refusi testuali delle
+  opzioni non pertinenti alla sola revisione delle chiavi.
+- Accesso esteso a tutto il catalogo (con tutti i permessi) per gli account
+  `luca.spano`, `matteo.locascio`, `patrick.staccioli` e `christian.grandi`.
 
 ## 2026-09-28
 
