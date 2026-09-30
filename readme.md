@@ -24,18 +24,29 @@ This repository holds **no application backend and no plaintext exam content**. 
 
 ## Content model
 
-Each exam belongs to one macro-category folder under `exams/`. Categories map to broad technology domains (e.g. Linux/Red&nbsp;Hat, VMware vSphere) and grow over time as new exams are added — there is no fixed list.
+Each exam belongs to one macro-category folder under `exams/`. Categories map to broad technology domains (e.g. Red&nbsp;Hat, Nutanix, Proxmox, VMware vSphere) and grow over time as new exams are added — there is no fixed list. Each category also carries the vendor's own icon and brand color, read by the app instead of a fixed palette.
 
 ```
 exams/
-├── linux-redhat/
+├── redhat/
+│   └── <exam-id>
+├── nutanix/
+│   └── <exam-id>
+├── proxmox/
 │   └── <exam-id>
 └── vmware-vsphere/
     └── <exam-id>
 users.*
 ```
 
+`exams/index.json` is the authoritative source for each exam's code, duration and question count.
+
 The user/access list sits outside `exams/`: it carries the accounts authorized to use examgrid and which exams each one can see.
+
+Each account also carries per-user capabilities: `canRevealAnswers` controls access to correct
+answers, `canRandomizeQuestions` controls question randomization, and `canChooseRange` controls
+choosing the question range. The latter two are granted together with answer visibility; users
+without answer visibility do not receive either capability.
 
 ## Architecture
 

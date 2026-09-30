@@ -1,37 +1,46 @@
 {
   "manifestVersion": "1.0.0",
   "categories": {
-    "linux-redhat": {
-      "icon": "command-line"
+    "nutanix": {
+      "icon": "nutanix",
+      "color": "#2C5F8A"
     },
     "proxmox": {
-      "icon": "server"
+      "icon": "proxmox",
+      "color": "#AB672B"
+    },
+    "redhat": {
+      "icon": "redhat",
+      "color": "#C0392B"
     },
     "vmware-vsphere": {
-      "icon": "server-stack"
+      "icon": "vmware",
+      "color": "#607078"
     }
   },
   "exams": [
     {
-      "id": "rh066x",
-      "code": "EG-LNX-101",
-      "title": "RH066X",
-      "category": "linux-redhat",
-      "icon": "command-line",
-      "duration": 30,
-      "questionCount": 30,
+      "id": "nca-7.5",
+      "code": "NCA-7.5",
+      "title": "The Nutanix Certified Associate (NCA) 7.5",
+      "category": "nutanix",
+      "icon": "nutanix",
+      "color": "#2C5F8A",
+      "duration": 90,
+      "questionCount": 168,
       "description": {
-        "it": "Amministrazione base di sistemi Linux/Red Hat: file system, processi, utenti, permessi, servizi systemd e strumenti di rete essenziali.",
-        "en": "Basic Linux/Red Hat system administration: the filesystem, processes, users, permissions, systemd services and essential network tools."
+        "it": "Fondamenti di Nutanix Cloud Infrastructure e amministrazione della piattaforma: soluzioni Nutanix, VM, rete, storage, licensing, manutenzione, salute e monitoraggio.",
+        "en": "Nutanix Cloud Infrastructure and platform administration fundamentals: Nutanix solutions, VMs, networking, storage, licensing, maintenance, health and monitoring."
       },
-      "url": "exams/linux-redhat/RH066X.enc.json"
+      "url": "exams/nutanix/NCA-7.5.enc.json"
     },
     {
       "id": "proxmoxbasics",
       "code": "EG-PVE-101",
       "title": "ProxmoxBasics",
       "category": "proxmox",
-      "icon": "server",
+      "icon": "proxmox",
+      "color": "#AB672B",
       "duration": 30,
       "questionCount": 35,
       "description": {
@@ -41,11 +50,42 @@
       "url": "exams/proxmox/ProxmoxBasics.enc.json"
     },
     {
+      "id": "rh066x",
+      "code": "EG-LNX-101",
+      "title": "RH066X",
+      "category": "redhat",
+      "icon": "redhat",
+      "color": "#C0392B",
+      "duration": 30,
+      "questionCount": 30,
+      "description": {
+        "it": "Amministrazione base di sistemi Linux/Red Hat: file system, processi, utenti, permessi, servizi systemd e strumenti di rete essenziali.",
+        "en": "Basic Linux/Red Hat system administration: the filesystem, processes, users, permissions, systemd services and essential network tools."
+      },
+      "url": "exams/redhat/RH066X.enc.json"
+    },
+    {
+      "id": "2v0-13.25",
+      "code": "2V0-13.25",
+      "title": "VMware Cloud Foundation 9.0 Architect",
+      "category": "vmware-vsphere",
+      "icon": "vmware",
+      "color": "#607078",
+      "duration": 135,
+      "questionCount": 115,
+      "description": {
+        "it": "Architettura e progettazione di VMware Cloud Foundation 9.0: requisiti, disponibilità, prestazioni, sicurezza, gestione, recovery, networking, storage e automazione.",
+        "en": "VMware Cloud Foundation 9.0 architecture and design: requirements, availability, performance, security, manageability, recoverability, networking, storage and automation."
+      },
+      "url": "exams/vmware-vsphere/2V0-13.25.enc.json"
+    },
+    {
       "id": "2v0-17.25",
       "code": "2V0-17.25",
       "title": "VMware Cloud Foundation 9.0 Administrator",
       "category": "vmware-vsphere",
-      "icon": "server-stack",
+      "icon": "vmware",
+      "color": "#607078",
       "duration": 135,
       "questionCount": 100,
       "description": {
@@ -59,7 +99,8 @@
       "code": "EG-VMW-101",
       "title": "vSphereBasics",
       "category": "vmware-vsphere",
-      "icon": "server-stack",
+      "icon": "vmware",
+      "color": "#607078",
       "duration": 30,
       "questionCount": 35,
       "description": {

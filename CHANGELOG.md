@@ -2,6 +2,22 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-09-30
+
+- Aggiunti ai profili utente i permessi `canRandomizeQuestions` e
+  `canChooseRange`, assegnati coerentemente con `canRevealAnswers`.
+- Importato l'esame Nutanix `NCA-7.5`, con il codice ufficiale preservato,
+  aggiunto alla categoria `nutanix` e all'indice del catalogo.
+- Categoria `linux-redhat` rinominata in `redhat` (solo l'identificativo, il
+  contenuto degli esami non cambia).
+- Icona e colore di ogni categoria ora seguono il logo del vendor reale
+  (Red Hat, Nutanix, Proxmox, VMware) invece di un'icona generica: nuovo
+  campo opzionale `color` accanto a `icon`, sia a livello di categoria sia
+  di singolo esame nell'indice del catalogo.
+- Importato l'esame VMware Cloud Foundation Architect `2V0-13.25`, con codice
+  ufficiale preservato, 115 domande e durata di 135 minuti, nella categoria
+  `vmware-vsphere` e nell'indice del catalogo.
+
 ## 2026-09-28
 
 - Prima pubblicazione del registro: struttura a macrocategorie sotto
