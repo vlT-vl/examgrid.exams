@@ -34,7 +34,7 @@ exams/
 │   └── <exam-id>
 ├── proxmox/
 │   └── <exam-id>
-└── vmware-vsphere/
+└── vmware/
     └── <exam-id>
 users.*
 ```

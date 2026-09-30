@@ -16,7 +16,9 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
   di singolo esame nell'indice del catalogo.
 - Importato l'esame VMware Cloud Foundation Architect `2V0-13.25`, con codice
   ufficiale preservato, 115 domande e durata di 135 minuti, nella categoria
-  `vmware-vsphere` e nell'indice del catalogo.
+  `vmware` e nell'indice del catalogo.
+- Categoria `vmware-vsphere` rinominata in `vmware` (solo l'identificativo,
+  il contenuto degli esami non cambia).
 
 ## 2026-09-28
 

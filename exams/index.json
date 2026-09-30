@@ -13,7 +13,7 @@
       "icon": "redhat",
       "color": "#C0392B"
     },
-    "vmware-vsphere": {
+    "vmware": {
       "icon": "vmware",
       "color": "#607078"
     }
@@ -68,7 +68,7 @@
       "id": "2v0-13.25",
       "code": "2V0-13.25",
       "title": "VMware Cloud Foundation 9.0 Architect",
-      "category": "vmware-vsphere",
+      "category": "vmware",
       "icon": "vmware",
       "color": "#607078",
       "duration": 135,
@@ -77,13 +77,13 @@
         "it": "Architettura e progettazione di VMware Cloud Foundation 9.0: requisiti, disponibilità, prestazioni, sicurezza, gestione, recovery, networking, storage e automazione.",
         "en": "VMware Cloud Foundation 9.0 architecture and design: requirements, availability, performance, security, manageability, recoverability, networking, storage and automation."
       },
-      "url": "exams/vmware-vsphere/2V0-13.25.enc.json"
+      "url": "exams/vmware/2V0-13.25.enc.json"
     },
     {
       "id": "2v0-17.25",
       "code": "2V0-17.25",
       "title": "VMware Cloud Foundation 9.0 Administrator",
-      "category": "vmware-vsphere",
+      "category": "vmware",
       "icon": "vmware",
       "color": "#607078",
       "duration": 135,
@@ -92,13 +92,13 @@
         "it": "Amministrazione avanzata di VMware Cloud Foundation 9.0: VCF Operations, VCF Automation, networking NSX, storage vSAN, workload domain e servizi Kubernetes (VKS).",
         "en": "Advanced VMware Cloud Foundation 9.0 administration: VCF Operations, VCF Automation, NSX networking, vSAN storage, workload domains and Kubernetes (VKS) services."
       },
-      "url": "exams/vmware-vsphere/2V0-17.25.enc.json"
+      "url": "exams/vmware/2V0-17.25.enc.json"
     },
     {
       "id": "vspherebasics",
       "code": "EG-VMW-101",
       "title": "vSphereBasics",
-      "category": "vmware-vsphere",
+      "category": "vmware",
       "icon": "vmware",
       "color": "#607078",
       "duration": 30,
@@ -107,7 +107,7 @@
         "it": "Fondamenti di VMware vSphere: ESXi, vCenter, vMotion, storage, snapshot, HA/DRS/Fault Tolerance e gestione base dell'infrastruttura virtuale.",
         "en": "VMware vSphere fundamentals: ESXi, vCenter, vMotion, storage, snapshots, HA/DRS/Fault Tolerance and basic virtual infrastructure management."
       },
-      "url": "exams/vmware-vsphere/vSphereBasics.enc.json"
+      "url": "exams/vmware/vSphereBasics.enc.json"
     }
   ]
 }
