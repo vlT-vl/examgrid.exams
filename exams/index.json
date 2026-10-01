@@ -13,6 +13,10 @@
       "icon": "redhat",
       "color": "#C0392B"
     },
+    "s2e": {
+      "icon": "s2e",
+      "color": "#2F6F8F"
+    },
     "vmware": {
       "icon": "vmware",
       "color": "#607078"
@@ -22,11 +26,12 @@
     {
       "id": "nca-7.5",
       "code": "NCA-7.5",
-      "lastUpdate": "2026-09-30",
       "title": "The Nutanix Certified Associate (NCA) 7.5",
       "category": "nutanix",
       "icon": "nutanix",
       "color": "#2C5F8A",
+      "lastUpdate": "2026-09-30",
+      "primaryLanguage": "en",
       "duration": 90,
       "questionCount": 168,
       "description": {
@@ -38,11 +43,12 @@
     {
       "id": "proxmoxbasics",
       "code": "EG-PVE-101",
-      "lastUpdate": "2026-09-28",
       "title": "ProxmoxBasics",
       "category": "proxmox",
       "icon": "proxmox",
       "color": "#AB672B",
+      "lastUpdate": "2026-09-28",
+      "primaryLanguage": "it",
       "duration": 30,
       "questionCount": 35,
       "description": {
@@ -54,11 +60,12 @@
     {
       "id": "rh066x",
       "code": "EG-LNX-101",
-      "lastUpdate": "2026-09-28",
       "title": "RH066X",
       "category": "redhat",
       "icon": "redhat",
       "color": "#C0392B",
+      "lastUpdate": "2026-09-28",
+      "primaryLanguage": "it",
       "duration": 30,
       "questionCount": 30,
       "description": {
@@ -68,13 +75,48 @@
       "url": "exams/redhat/RH066X.enc.json"
     },
     {
+      "id": "s2e-aruba-dc",
+      "code": "S2E-ARUBA-DC",
+      "title": "S2E Aruba Datacenter Infrastructure",
+      "category": "s2e",
+      "icon": "s2e",
+      "color": "#2F6F8F",
+      "lastUpdate": "2026-10-01",
+      "primaryLanguage": "it",
+      "duration": 120,
+      "questionCount": 180,
+      "description": {
+        "it": "Architettura del datacenter S2E presso Aruba: Proxmox, rete segmentata, FortiGate HA, HPE MSA, servizi applicativi, backup e Business Continuity.",
+        "en": "S2E Aruba datacenter architecture: Proxmox, segmented networking, FortiGate HA, HPE MSA, application services, backup and Business Continuity."
+      },
+      "url": "exams/s2e/S2E-Aruba-DC.enc.json"
+    },
+    {
+      "id": "s2e-onpremises-dc",
+      "code": "S2E-ONPREM-DC",
+      "title": "S2E On-Premises Infrastructure",
+      "category": "s2e",
+      "icon": "s2e",
+      "color": "#5A6F8E",
+      "lastUpdate": "2026-10-01",
+      "primaryLanguage": "it",
+      "duration": 120,
+      "questionCount": 327,
+      "description": {
+        "it": "Infrastruttura on-premises S2E: Proxmox, segmentazione VLAN, storage TrueNAS/NFS/ZFS, backup, firewall, accessi, PDM, Rundeck, monitoraggio e CoreDNS applicato.",
+        "en": "S2E on-premises infrastructure: Proxmox, VLAN segmentation, TrueNAS/NFS/ZFS storage, backup, firewalling, access, PDM, Rundeck, monitoring and applied CoreDNS."
+      },
+      "url": "exams/s2e/S2E-OnPremises-DC.enc.json"
+    },
+    {
       "id": "2v0-13.25",
       "code": "2V0-13.25",
-      "lastUpdate": "2026-09-30",
       "title": "VMware Cloud Foundation 9.0 Architect",
       "category": "vmware",
       "icon": "vmware",
       "color": "#607078",
+      "lastUpdate": "2026-09-30",
+      "primaryLanguage": "en",
       "duration": 135,
       "questionCount": 115,
       "description": {
@@ -86,11 +128,12 @@
     {
       "id": "2v0-17.25",
       "code": "2V0-17.25",
-      "lastUpdate": "2026-09-07",
       "title": "VMware Cloud Foundation 9.0 Administrator",
       "category": "vmware",
       "icon": "vmware",
       "color": "#607078",
+      "lastUpdate": "2026-09-07",
+      "primaryLanguage": "en",
       "duration": 135,
       "questionCount": 100,
       "description": {
@@ -102,10 +145,11 @@
     {
       "id": "2v0-41.24",
       "code": "2V0-41.24",
-      "lastUpdate": "2026-09-24",
       "title": "VMware NSX 4.X Professional V2",
       "category": "vmware",
       "icon": "vmware",
+      "lastUpdate": "2026-09-24",
+      "primaryLanguage": "en",
       "duration": 135,
       "questionCount": 115,
       "description": {
@@ -117,11 +161,12 @@
     {
       "id": "vspherebasics",
       "code": "EG-VMW-101",
-      "lastUpdate": "2026-09-28",
       "title": "vSphereBasics",
       "category": "vmware",
       "icon": "vmware",
       "color": "#607078",
+      "lastUpdate": "2026-09-28",
+      "primaryLanguage": "it",
       "duration": 30,
       "questionCount": 35,
       "description": {

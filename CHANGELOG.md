@@ -62,6 +62,14 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
   `showSaveFilePicker` quando il browser lo supporta, con fallback al download standard.
 - Pubblicato `lastUpdate` anche nell'indice `exams/index.json` per tutti gli esami, così la UI
   può mostrare la data senza sbloccare o decifrare il file delle domande.
+- Importati due esami infrastrutturali S2E dai documenti Aruba e On-Premises, con codici
+  `S2E-ARUBA-DC` e `S2E-ONPREM-DC`, rispettivamente 180 e 327 quesiti; CoreDNS è trattato
+  esclusivamente nell'esame On-Premises. Aggiunta la categoria `s2e` al catalogo.
+- Aggiunto l'account `fabio.circiello`, con foto profilo, accesso al solo `rh066x` e permission
+  del portale disabilitate; rigenerato esclusivamente `users.enc.json`.
+- Aggiunto `primaryLanguage` ai nove JSON degli esami e al manifest
+  `exams/index.json` (`it`/`en`); rigenerati gli envelope e aggiornato il
+  generatore locale perché propaghi automaticamente il campo.
 
 ## 2026-09-28
 
