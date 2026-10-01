@@ -31,6 +31,38 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
 - Accesso esteso a tutto il catalogo (con tutti i permessi) per gli account
   `luca.spano`, `matteo.locascio`, `patrick.staccioli` e `christian.grandi`.
 
+## 2026-10-01
+
+- Corrette 20 chiavi `correctAnswers` dell'esame Nutanix `NCA-7.5` sulla base del
+  JSON revisionato `NCA-7.5_corretto.json`, senza modificare testo, opzioni,
+  metadati o `answersnumber` delle domande.
+- Aggiunto il campo statico `LastUpdate` ai sette JSON degli esami, con la data
+  concordata dell'ultimo aggiornamento del dump.
+- Aggiunto ai profili utente il permesso `canReviewQuestions`, allineato a
+  `canRevealAnswers`, per consentire al portale di gestire la review finale.
+- Aggiunto l'account `davide.locatelli`, con foto profilo, accesso ai soli esami
+  `EG-*` e tutte le permission del portale.
+- Aggiunti sotto `tools/` (ignorati da Git) il report privato utenti/accessi e la
+  console voucher statica compatibile con il protocollo di emissione locale.
+- Il report privato utenti/accessi è stato spostato nella root del progetto e
+  aggiunto al `.gitignore`; la console resta sotto `tools/`.
+- Gli utenti con accesso ristretto sono stati uniformati ai tre esami `EG-*`;
+  `giacomo.marcelli` ha inoltre ricevuto `2V0-41.24`.
+- Rimossa la cartella vuota `tools/backup/`; gli script la ricreano automaticamente
+  solo quando devono salvare una chiave durante una rotazione.
+- La console voucher locale ora evita il caricamento `file://` soggetto a CORS tramite
+  `voucher-console.command`, espone sempre lo stato Web Crypto, pagina lo storico e consente
+  di eliminare le voci riscrivendo il JSON locale quando disponibile; la favicon usa il solo
+  simbolo quadrato `res/examgrid.svg`, senza wordmark.
+- La console voucher è stata resa autonoma: nessun server o comando da avviare, configurazione
+  JSON incorporata in testa alla pagina, storico in `localStorage` ed esportazione manuale JSON.
+- Ripristinati il logo SVG ufficiale `examgrid-exams` e la favicon con la sola icona `examgrid`;
+  lo storico supporta importazione JSON, aggiornamento automatico e download del file aggiornato.
+- L'esportazione dello storico apre il selettore nativo di percorso/nome tramite
+  `showSaveFilePicker` quando il browser lo supporta, con fallback al download standard.
+- Pubblicato `lastUpdate` anche nell'indice `exams/index.json` per tutti gli esami, così la UI
+  può mostrare la data senza sbloccare o decifrare il file delle domande.
+
 ## 2026-09-28
 
 - Prima pubblicazione del registro: struttura a macrocategorie sotto

@@ -10,3 +10,6 @@ tools/
 
 # Note di lavoro interne, non per la repo pubblica
 handoff.md
+
+# Report operativo locale: non committare mai
+users.md

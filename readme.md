@@ -4,58 +4,57 @@
 </p>
 
 <p align="center">
-  Static, protected registry of exam content and user access data for examgrid<br/>
-  <sub>Plain files · No backend</sub>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.0-blue?style=flat-square" alt="version"/>
-  <img src="https://img.shields.io/badge/format-JSON-orange?style=flat-square" alt="format"/>
-  <img src="https://img.shields.io/badge/license-proprietary-critical?style=flat-square" alt="license"/>
+  Static registry of exam content, catalog metadata and user access data for examgrid<br/>
+  <sub>JSON files · No backend</sub>
 </p>
 
 ---
 
-## Overview
+## Purpose
 
-**examgrid.exams** is the static registry that [examgrid](../examgrid) reads its real exam content and user/access data from — the same role that [nxget.packages](../nxget.packages) plays for `nxget-app-portal`: a plain, hand-maintained repository of files, no server, no API beyond raw file access.
+**examgrid.exams** is the static data registry consumed by [examgrid](../examgrid).
+It provides the portal with the exam catalog, exam question data and the user access
+configuration required to decide which content and capabilities are available to each account.
 
-This repository holds **no application backend and no plaintext exam content**. The exam catalog itself is public; the actual question content and the account list are protected and only readable by the app, not by browsing this repository directly.
+The repository is data-only: it contains no application backend, API or runtime service.
+The portal reads the published files and uses them as its source of truth for catalog and access
+metadata.
 
-## Content model
+## Repository structure
 
-Each exam belongs to one macro-category folder under `exams/`. Categories map to broad technology domains (e.g. Red&nbsp;Hat, Nutanix, Proxmox, VMware vSphere) and grow over time as new exams are added — there is no fixed list. Each category also carries the vendor's own icon and brand color, read by the app instead of a fixed palette.
-
-```
+```text
 exams/
-├── redhat/
-│   └── <exam-id>
-├── nutanix/
-│   └── <exam-id>
-├── proxmox/
-│   └── <exam-id>
-└── vmware/
-    └── <exam-id>
-users.*
+├── <category>/
+│   └── <exam-file>
+└── index.json
+users.enc.json
 ```
 
-`exams/index.json` is the authoritative source for each exam's code, duration and question count.
+Exam files are grouped by broad technology category. The category structure is extensible and
+does not depend on a fixed set of vendors or certifications.
 
-The VMware catalog includes `2V0-41.24` (VMware NSX 4.X Professional V2); answer-key revisions
-are applied from the maintainer's review data when supplied. Its first XLS-based review updated
-18 answer keys while preserving all other question and option text.
+`exams/index.json` is the catalog manifest. It exposes the metadata needed to render the exam
+catalog, including each exam's identifier, official code, title, category, duration, question
+count and localized description.
 
-The user/access list sits outside `exams/`: it carries the accounts authorized to use examgrid and which exams each one can see.
+## User access model
 
-Each account also carries per-user capabilities: `canRevealAnswers` controls access to correct
-answers, `canRandomizeQuestions` controls question randomization, and `canChooseRange` controls
-choosing the question range. The latter two are granted together with answer visibility; users
-without answer visibility do not receive either capability. An optional `avatarUrl` links to a
-profile picture shown in the app; accounts without one fall back to a generic icon.
+The user registry defines which exams an account can access and which portal capabilities are
+enabled for that account. Capabilities are independent boolean permissions:
 
-## Architecture
+- `canRevealAnswers`: permits viewing correct answers;
+- `canRandomizeQuestions`: permits randomizing the question order;
+- `canChooseRange`: permits selecting a question range;
+- `canReviewQuestions`: permits the final review of answered questions and correct answers.
 
-The registry is produced by a maintainer-only local toolchain that is intentionally **not part of this repository**: the actual exam content and account list are prepared and published from the maintainer's own machine, never as part of any build or deploy step. Only the finished, protected files reach this repository.
+An optional `avatarUrl` can be associated with an account for presentation in the portal.
+
+## Data contract
+
+The portal should treat the JSON structures and field names in this repository as the data
+contract. New categories and exams can be added without changing the repository's role: add the
+exam data, expose its catalog metadata in the manifest, and assign access through the user
+registry when required.
 
 ## License
 

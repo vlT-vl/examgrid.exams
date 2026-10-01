@@ -22,6 +22,7 @@
     {
       "id": "nca-7.5",
       "code": "NCA-7.5",
+      "lastUpdate": "2026-09-30",
       "title": "The Nutanix Certified Associate (NCA) 7.5",
       "category": "nutanix",
       "icon": "nutanix",
@@ -37,6 +38,7 @@
     {
       "id": "proxmoxbasics",
       "code": "EG-PVE-101",
+      "lastUpdate": "2026-09-28",
       "title": "ProxmoxBasics",
       "category": "proxmox",
       "icon": "proxmox",
@@ -52,6 +54,7 @@
     {
       "id": "rh066x",
       "code": "EG-LNX-101",
+      "lastUpdate": "2026-09-28",
       "title": "RH066X",
       "category": "redhat",
       "icon": "redhat",
@@ -67,6 +70,7 @@
     {
       "id": "2v0-13.25",
       "code": "2V0-13.25",
+      "lastUpdate": "2026-09-30",
       "title": "VMware Cloud Foundation 9.0 Architect",
       "category": "vmware",
       "icon": "vmware",
@@ -82,6 +86,7 @@
     {
       "id": "2v0-17.25",
       "code": "2V0-17.25",
+      "lastUpdate": "2026-09-07",
       "title": "VMware Cloud Foundation 9.0 Administrator",
       "category": "vmware",
       "icon": "vmware",
@@ -97,6 +102,7 @@
     {
       "id": "2v0-41.24",
       "code": "2V0-41.24",
+      "lastUpdate": "2026-09-24",
       "title": "VMware NSX 4.X Professional V2",
       "category": "vmware",
       "icon": "vmware",
@@ -111,6 +117,7 @@
     {
       "id": "vspherebasics",
       "code": "EG-VMW-101",
+      "lastUpdate": "2026-09-28",
       "title": "vSphereBasics",
       "category": "vmware",
       "icon": "vmware",
