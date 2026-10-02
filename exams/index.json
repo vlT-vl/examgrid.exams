@@ -30,7 +30,7 @@
       "category": "nutanix",
       "icon": "nutanix",
       "color": "#2C5F8A",
-      "lastUpdate": "2026-09-30",
+      "lastUpdate": "2026-10-02",
       "primaryLanguage": "en",
       "duration": 90,
       "questionCount": 168,
@@ -75,6 +75,23 @@
       "url": "exams/redhat/RH066X-Fundamentals.enc.json"
     },
     {
+      "id": "rh066x-professional",
+      "code": "EG-LNX-201",
+      "title": "RH066X Professional",
+      "category": "redhat",
+      "icon": "redhat",
+      "color": "#C0392B",
+      "lastUpdate": "2026-10-02",
+      "primaryLanguage": "en",
+      "duration": 120,
+      "questionCount": 126,
+      "description": {
+        "it": "Amministrazione professionale Linux/Red Hat: file e permessi, storage e filesystem, servizi, processi e crontab, repository e pacchetti, networking, chiavi SSH, utenti e privilegi.",
+        "en": "Professional Linux/Red Hat administration: files and permissions, storage and filesystems, services, processes and crontab, repositories and packages, networking, SSH keys, users and privileges."
+      },
+      "url": "exams/redhat/RH066X-Professional.enc.json"
+    },
+    {
       "id": "s2e-aruba-dc",
       "code": "S2E-ARUBA-DC",
       "title": "S2E Aruba Datacenter Infrastructure",
@@ -115,7 +132,7 @@
       "category": "vmware",
       "icon": "vmware",
       "color": "#5F916B",
-      "lastUpdate": "2026-09-30",
+      "lastUpdate": "2026-10-02",
       "primaryLanguage": "en",
       "duration": 135,
       "questionCount": 115,

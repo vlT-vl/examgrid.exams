@@ -4,6 +4,21 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
 
 ## 2026-10-02
 
+- Aggiunto `RH066X Professional` (`EG-LNX-201`): 126 quesiti in inglese a
+  difficoltà variabile su file e permessi, storage e filesystem, servizi e
+  processi, `crontab`, repository e pacchetti, networking, SSH, utenti e privilegi,
+  inclusi trasferimenti e sincronizzazioni con `scp`, `rsync` e `rclone`.
+- Assegnato l'accesso a `RH066X Professional` anche a tutti gli account con una
+  lista di esami esplicita, oltre agli account che dispongono già di accesso globale.
+- Corretta nell'esame Nutanix `NCA-7.5` la risposta al quesito sulla protezione
+  delle comunicazioni intra-cluster da `Network Encryption` a
+  `Network Segmentation`.
+- Ripuliti i testi illeggibili o incoerenti dell'esame Nutanix `NCA-7.5`,
+  rimuovendo artefatti OCR e riferimenti a exhibit non disponibili senza
+  modificare opzioni o chiavi di risposta durante la revisione testuale.
+- Ripristinate nell'esame VMware Cloud Foundation Architect `2V0-13.25` le
+  opzioni F fuse durante l'importazione e le relative chiavi delle domande 10,
+  27 e 89; completati i testi 21 e 22 e rimossi i marcatori OCR residui.
 - Rinominati gli esami base in `RH066X Fundamentals`, `vSphere Fundamentals` e
   `Proxmox Fundamentals`, aggiornando identificativi, percorsi pubblici e permessi
   di accesso degli utenti per lasciare spazio a futuri esami avanzati.
