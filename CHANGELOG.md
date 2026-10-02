@@ -2,89 +2,67 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
-## 2026-09-30
+## 2026-10-02
 
-- Aggiunti ai profili utente i permessi `canRandomizeQuestions` e
-  `canChooseRange`, assegnati coerentemente con `canRevealAnswers`.
-- Importato l'esame Nutanix `NCA-7.5`, con il codice ufficiale preservato,
-  aggiunto alla categoria `nutanix` e all'indice del catalogo.
-- Categoria `linux-redhat` rinominata in `redhat` (solo l'identificativo, il
-  contenuto degli esami non cambia).
-- Icona e colore di ogni categoria ora seguono il logo del vendor reale
-  (Red Hat, Nutanix, Proxmox, VMware) invece di un'icona generica: nuovo
-  campo opzionale `color` accanto a `icon`, sia a livello di categoria sia
-  di singolo esame nell'indice del catalogo.
-- Importato l'esame VMware Cloud Foundation Architect `2V0-13.25`, con codice
-  ufficiale preservato, 115 domande e durata di 135 minuti, nella categoria
-  `vmware` e nell'indice del catalogo.
-- Categoria `vmware-vsphere` rinominata in `vmware` (solo l'identificativo,
-  il contenuto degli esami non cambia).
-- Aggiunta la foto profilo per 7 dei 8 account (link diretto, nessun file caricato nel
-  registro); chi non ne ha una resta con l'icona generica come prima.
-- Account `admin` rinominato con il nome nominale del titolare invece della generica "Admin".
-- Importato l'esame VMware NSX 4.X Professional V2 `2V0-41.24`, con codice
-  ufficiale preservato, 115 quesiti e durata di 135 minuti, nella categoria
-  `vmware`; le chiavi restano quelle del PDF in attesa della revisione XLS.
-- Riviste con `NSX.xlsx` le chiavi di risposta di `2V0-41.24`: aggiornati 18
-  quesiti, lasciati invariati gli altri e mantenuti i refusi testuali delle
-  opzioni non pertinenti alla sola revisione delle chiavi.
-- Accesso esteso a tutto il catalogo (con tutti i permessi) per gli account
-  `luca.spano`, `matteo.locascio`, `patrick.staccioli` e `christian.grandi`.
+- Rinominati gli esami base in `RH066X Fundamentals` e `Proxmox Fundamentals`,
+  aggiornando identificativi, percorsi pubblici e permessi di accesso degli utenti
+  per lasciare spazio a futuri esami avanzati.
 
 ## 2026-10-01
 
 - Corrette 20 chiavi `correctAnswers` dell'esame Nutanix `NCA-7.5` sulla base del
   JSON revisionato `NCA-7.5_corretto.json`, senza modificare testo, opzioni,
-  metadati o `answersnumber` delle domande.
-- Aggiunto il campo statico `LastUpdate` ai sette JSON degli esami, con la data
-  concordata dell'ultimo aggiornamento del dump.
+  metadati o `answersnumber`.
+- Aggiunti `LastUpdate` ai sorgenti degli esami e `lastUpdate` ai nove record del
+  manifest pubblico, così la UI può mostrare la data prima della decifratura.
+- Aggiunto `primaryLanguage` ai nove esami e al manifest (`it`/`en`); aggiornato
+  il generatore locale perché propaghi automaticamente il campo.
 - Aggiunto ai profili utente il permesso `canReviewQuestions`, allineato a
-  `canRevealAnswers`, per consentire al portale di gestire la review finale.
-- Aggiunto l'account `davide.locatelli`, con foto profilo, accesso ai soli esami
-  `EG-*` e tutte le permission del portale.
-- Aggiunti sotto `tools/` (ignorati da Git) il report privato utenti/accessi e la
-  console voucher statica compatibile con il protocollo di emissione locale.
-- Il report privato utenti/accessi è stato spostato nella root del progetto e
-  aggiunto al `.gitignore`; la console resta sotto `tools/`.
-- Gli utenti con accesso ristretto sono stati uniformati ai tre esami `EG-*`;
-  `giacomo.marcelli` ha inoltre ricevuto `2V0-41.24`.
-- Rimossa la cartella vuota `tools/backup/`; gli script la ricreano automaticamente
-  solo quando devono salvare una chiave durante una rotazione.
-- La console voucher locale ora evita il caricamento `file://` soggetto a CORS tramite
-  `voucher-console.command`, espone sempre lo stato Web Crypto, pagina lo storico e consente
-  di eliminare le voci riscrivendo il JSON locale quando disponibile; la favicon usa il solo
-  simbolo quadrato `res/examgrid.svg`, senza wordmark.
-- La console voucher è stata resa autonoma: nessun server o comando da avviare, configurazione
-  JSON incorporata in testa alla pagina, storico in `localStorage` ed esportazione manuale JSON.
-- Ripristinati il logo SVG ufficiale `examgrid-exams` e la favicon con la sola icona `examgrid`;
-  lo storico supporta importazione JSON, aggiornamento automatico e download del file aggiornato.
-- L'esportazione dello storico apre il selettore nativo di percorso/nome tramite
-  `showSaveFilePicker` quando il browser lo supporta, con fallback al download standard.
-- Pubblicato `lastUpdate` anche nell'indice `exams/index.json` per tutti gli esami, così la UI
-  può mostrare la data senza sbloccare o decifrare il file delle domande.
-- Importati due esami infrastrutturali S2E dai documenti Aruba e On-Premises, con codici
-  `S2E-ARUBA-DC` e `S2E-ONPREM-DC`, rispettivamente 180 e 327 quesiti; CoreDNS è trattato
-  esclusivamente nell'esame On-Premises. Aggiunta la categoria `s2e` al catalogo.
-- Aggiunto l'account `fabio.circiello`, con foto profilo, accesso al solo `rh066x` e permission
-  del portale disabilitate; rigenerato esclusivamente `users.enc.json`.
-- Aggiunto `primaryLanguage` ai nove JSON degli esami e al manifest
-  `exams/index.json` (`it`/`en`); rigenerati gli envelope e aggiornato il
-  generatore locale perché propaghi automaticamente il campo.
+  `canRevealAnswers`.
+- Aggiunti gli account `davide.locatelli` e `fabio.circiello`; riallineati gli
+  accessi ristretti ai tre esami `EG-*`, mantenendo per `giacomo.marcelli` anche
+  l'accesso a `2V0-41.24` e limitando `fabio.circiello` a
+  `rh066x-fundamentals`.
+- Importati gli esami infrastrutturali `S2E-ARUBA-DC` e `S2E-ONPREM-DC`,
+  rispettivamente con 180 e 327 quesiti, e aggiunta la categoria `s2e`; CoreDNS
+  è trattato esclusivamente nell'esame On-Premises.
+- Riscritto il README pubblico per descrivere scopo, struttura, contratto dati e
+  modello di accesso della repo.
+- Aggiunti strumenti operativi locali, ignorati da Git: report utenti/accessi e
+  console voucher autonoma. La console usa un catalogo incorporato sincronizzato
+  automaticamente dal generatore, separa emissione e storico e supporta
+  importazione/esportazione JSON e file picker nativo quando disponibile.
+
+## 2026-09-30
+
+- Aggiunti ai profili utente i permessi `canRandomizeQuestions` e
+  `canChooseRange`, assegnati coerentemente con `canRevealAnswers`.
+- Importato l'esame Nutanix `NCA-7.5`, con codice ufficiale preservato, 168
+  quesiti e durata di 90 minuti.
+- Importati gli esami VMware Cloud Foundation Architect `2V0-13.25` e VMware
+  NSX 4.X Professional V2 `2V0-41.24`, entrambi con 115 quesiti e durata di 135
+  minuti.
+- Riviste con `NSX.xlsx` 18 chiavi di risposta di `2V0-41.24`, senza modificare
+  testo e opzioni.
+- Rinominate le categorie `linux-redhat` in `redhat` e `vmware-vsphere` in
+  `vmware`.
+- Aggiunti icona e colore vendor a categorie ed esami nel manifest pubblico.
+- Aggiunto `avatarUrl` opzionale ai profili disponibili e rinominato il nome
+  visualizzato dell'account `admin` in `Lorenzo Veronesi`.
+- Esteso l'accesso a tutto il catalogo, con tutti i permessi, agli account
+  `luca.spano`, `matteo.locascio`, `patrick.staccioli` e `christian.grandi`.
 
 ## 2026-09-28
 
-- Prima pubblicazione del registro: struttura a macrocategorie sotto
-  `exams/`, esami e lista utenti/accessi pubblicati in forma cifrata.
-- Aggiunti i primi due esami: `linux-redhat` e `vmware-vsphere`.
-- Aggiunto un terzo esame, `proxmox`, accanto ai due iniziali.
-- Aggiunto `exams/index.json`: l'indice del catalogo con titolo,
-  categoria, durata e numero di domande di ogni esame.
-- Corrette alcune imprecisioni nelle domande e risposte degli esami
-  esistenti.
-- Ampliata la lista utenti con nuovi account e i relativi permessi di
-  accesso agli esami.
-- Aggiunto il logo dedicato del registro in cima al README, con
-  supporto al tema chiaro/scuro di GitHub.
-- Licenza aggiornata a closed-source.
-- Introdotto un sistema di voucher a tempo per la decifratura del contenuto degli esami, pubblicati in forma cifrata separatamente dalla lista utenti.
-- Permessi di accesso agli esami resi realistici per ogni utenza (non più accesso indiscriminato a tutto il catalogo).
+- Prima pubblicazione del registro statico con sorgenti locali, envelope cifrati
+  e firmati, manifest pubblico e lista utenti/accessi separata.
+- Aggiunti gli esami oggi denominati `RH066X Fundamentals`, `vSphereBasics`,
+  `Proxmox Fundamentals` e VMware Cloud
+  Foundation Administrator `2V0-17.25`.
+- Aggiunto `exams/index.json`, generato automaticamente dai sorgenti durante la
+  cifratura.
+- Introdotto il sistema voucher a tempo per lo sblocco del contenuto degli esami.
+- Corretti quesiti e duplicati nei primi esami e configurati accessi realistici
+  per account.
+- Aggiunti logo dedicato con temi chiaro/scuro e licenza proprietaria
+  closed-source.

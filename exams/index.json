@@ -41,9 +41,9 @@
       "url": "exams/nutanix/NCA-7.5.enc.json"
     },
     {
-      "id": "proxmoxbasics",
+      "id": "proxmox-fundamentals",
       "code": "EG-PVE-101",
-      "title": "ProxmoxBasics",
+      "title": "Proxmox Fundamentals",
       "category": "proxmox",
       "icon": "proxmox",
       "color": "#AB672B",
@@ -55,12 +55,12 @@
         "it": "Fondamenti di Proxmox VE: KVM e LXC, clustering e quorum, live migration, storage ZFS/Ceph, backup, alta disponibilità e strumenti da riga di comando.",
         "en": "Proxmox VE fundamentals: KVM and LXC, clustering and quorum, live migration, ZFS/Ceph storage, backup, high availability and command-line tools."
       },
-      "url": "exams/proxmox/ProxmoxBasics.enc.json"
+      "url": "exams/proxmox/Proxmox-Fundamentals.enc.json"
     },
     {
-      "id": "rh066x",
+      "id": "rh066x-fundamentals",
       "code": "EG-LNX-101",
-      "title": "RH066X",
+      "title": "RH066X Fundamentals",
       "category": "redhat",
       "icon": "redhat",
       "color": "#C0392B",
@@ -72,7 +72,7 @@
         "it": "Amministrazione base di sistemi Linux/Red Hat: file system, processi, utenti, permessi, servizi systemd e strumenti di rete essenziali.",
         "en": "Basic Linux/Red Hat system administration: the filesystem, processes, users, permissions, systemd services and essential network tools."
       },
-      "url": "exams/redhat/RH066X.enc.json"
+      "url": "exams/redhat/RH066X-Fundamentals.enc.json"
     },
     {
       "id": "s2e-aruba-dc",
