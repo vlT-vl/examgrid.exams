@@ -19,7 +19,7 @@
     },
     "vmware": {
       "icon": "vmware",
-      "color": "#607078"
+      "color": "#5F916B"
     }
   },
   "exams": [
@@ -97,7 +97,7 @@
       "title": "S2E On-Premises Infrastructure",
       "category": "s2e",
       "icon": "s2e",
-      "color": "#5A6F8E",
+      "color": "#2F6F8F",
       "lastUpdate": "2026-10-01",
       "primaryLanguage": "it",
       "duration": 120,
@@ -114,7 +114,7 @@
       "title": "VMware Cloud Foundation 9.0 Architect",
       "category": "vmware",
       "icon": "vmware",
-      "color": "#607078",
+      "color": "#5F916B",
       "lastUpdate": "2026-09-30",
       "primaryLanguage": "en",
       "duration": 135,
@@ -131,7 +131,7 @@
       "title": "VMware Cloud Foundation 9.0 Administrator",
       "category": "vmware",
       "icon": "vmware",
-      "color": "#607078",
+      "color": "#5F916B",
       "lastUpdate": "2026-09-07",
       "primaryLanguage": "en",
       "duration": 135,
@@ -148,6 +148,7 @@
       "title": "VMware NSX 4.X Professional V2",
       "category": "vmware",
       "icon": "vmware",
+      "color": "#5F916B",
       "lastUpdate": "2026-09-24",
       "primaryLanguage": "en",
       "duration": 135,
@@ -159,12 +160,12 @@
       "url": "exams/vmware/2V0-41.24.enc.json"
     },
     {
-      "id": "vspherebasics",
+      "id": "vsphere-fundamentals",
       "code": "EG-VMW-101",
-      "title": "vSphereBasics",
+      "title": "vSphere Fundamentals",
       "category": "vmware",
       "icon": "vmware",
-      "color": "#607078",
+      "color": "#5F916B",
       "lastUpdate": "2026-09-28",
       "primaryLanguage": "it",
       "duration": 30,
@@ -173,7 +174,7 @@
         "it": "Fondamenti di VMware vSphere: ESXi, vCenter, vMotion, storage, snapshot, HA/DRS/Fault Tolerance e gestione base dell'infrastruttura virtuale.",
         "en": "VMware vSphere fundamentals: ESXi, vCenter, vMotion, storage, snapshots, HA/DRS/Fault Tolerance and basic virtual infrastructure management."
       },
-      "url": "exams/vmware/vSphereBasics.enc.json"
+      "url": "exams/vmware/vSphere-Fundamentals.enc.json"
     }
   ]
 }

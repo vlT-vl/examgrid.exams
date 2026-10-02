@@ -4,9 +4,13 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
 
 ## 2026-10-02
 
-- Rinominati gli esami base in `RH066X Fundamentals` e `Proxmox Fundamentals`,
-  aggiornando identificativi, percorsi pubblici e permessi di accesso degli utenti
-  per lasciare spazio a futuri esami avanzati.
+- Rinominati gli esami base in `RH066X Fundamentals`, `vSphere Fundamentals` e
+  `Proxmox Fundamentals`, aggiornando identificativi, percorsi pubblici e permessi
+  di accesso degli utenti per lasciare spazio a futuri esami avanzati.
+- Uniformati tag, icone e colori vendor tra gli esami della stessa categoria;
+  gli identificativi tecnici delle categorie restano tutti minuscoli.
+- Schiarito il colore associato alla categoria VMware con una tonalità verde
+  più coerente con il portale.
 
 ## 2026-10-01
 
@@ -56,7 +60,7 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
 
 - Prima pubblicazione del registro statico con sorgenti locali, envelope cifrati
   e firmati, manifest pubblico e lista utenti/accessi separata.
-- Aggiunti gli esami oggi denominati `RH066X Fundamentals`, `vSphereBasics`,
+- Aggiunti gli esami oggi denominati `RH066X Fundamentals`, `vSphere Fundamentals`,
   `Proxmox Fundamentals` e VMware Cloud
   Foundation Administrator `2V0-17.25`.
 - Aggiunto `exams/index.json`, generato automaticamente dai sorgenti durante la
