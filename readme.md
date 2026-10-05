@@ -47,7 +47,9 @@ enabled for that account. Capabilities are independent boolean permissions:
 - `canChooseRange`: permits selecting a question range;
 - `canReviewQuestions`: permits the final review of answered questions and correct answers.
 
-An optional `avatarUrl` can be associated with an account for presentation in the portal.
+An optional `avatarData` can be associated with an account for presentation in the portal: the
+profile image is embedded directly in the encrypted user registry, not linked from an external
+source.
 
 ## Data contract
 

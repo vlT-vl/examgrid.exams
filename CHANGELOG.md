@@ -2,6 +2,17 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-10-05
+
+- Aggiunti gli account `luca.probert` e `mohamed.ibrahim`, con accesso limitato
+  ai soli esami `RH066X Fundamentals` e `RH066X Professional`; solo per
+  `mohamed.ibrahim` abilitati i permessi di randomizzazione e selezione
+  dell'intervallo domande.
+- Le immagini profilo di tutti gli account non sono più collegate a un link
+  esterno: sono incorporate direttamente nel registro utenti cifrato
+  (`avatarData` sostituisce `avatarUrl`), così il portale non dipende più da
+  una risposta di terze parti per mostrarle.
+
 ## 2026-10-02
 
 - Aggiunto `RH066X Professional` (`EG-LNX-201`): 126 quesiti in inglese a
