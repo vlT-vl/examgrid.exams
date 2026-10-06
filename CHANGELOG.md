@@ -2,6 +2,16 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-10-06
+
+- Aggiunta la nuova categoria `aws` con il primo esame, `AWS Certified Cloud
+  Practitioner` (`CLF-C02`), 65 quesiti in inglese su concetti cloud,
+  sicurezza e conformità, tecnologie e servizi AWS, fatturazione e supporto.
+- Aggiunto un secondo esame nella categoria `aws`, `AWS Cloud Practitioner
+  Fundamentals` (`EG-AWS-101`): 120 quesiti originali in inglese, distribuiti
+  sui quattro domini dell'exam guide ufficiale (Cloud Concepts, Security and
+  Compliance, Cloud Technology and Services, Billing Pricing and Support).
+
 ## 2026-10-05
 
 - Aggiunti gli account `luca.probert` e `mohamed.ibrahim`, con accesso limitato

@@ -1,6 +1,10 @@
 {
   "manifestVersion": "1.0.0",
   "categories": {
+    "aws": {
+      "icon": "aws",
+      "color": "#FF9900"
+    },
     "nutanix": {
       "icon": "nutanix",
       "color": "#2C5F8A"
@@ -23,6 +27,40 @@
     }
   },
   "exams": [
+    {
+      "id": "clf-c02",
+      "code": "CLF-C02",
+      "title": "AWS Certified Cloud Practitioner",
+      "category": "aws",
+      "icon": "aws",
+      "color": "#FF9900",
+      "lastUpdate": "2026-10-06",
+      "primaryLanguage": "en",
+      "duration": 90,
+      "questionCount": 65,
+      "description": {
+        "it": "Test di pratica per la certificazione AWS Certified Cloud Practitioner: concetti cloud, sicurezza e conformita, tecnologie e servizi AWS, fatturazione e supporto.",
+        "en": "AWS Certified Cloud Practitioner practice exam: cloud concepts, security and compliance, AWS technology and services, billing and support."
+      },
+      "url": "exams/aws/CLF-C02.enc.json"
+    },
+    {
+      "id": "eg-aws-101",
+      "code": "EG-AWS-101",
+      "title": "AWS Cloud Practitioner Fundamentals",
+      "category": "aws",
+      "icon": "aws",
+      "color": "#FF9900",
+      "lastUpdate": "2026-10-06",
+      "primaryLanguage": "en",
+      "duration": 120,
+      "questionCount": 120,
+      "description": {
+        "it": "Simulazione originale per la certificazione AWS Certified Cloud Practitioner: 120 domande scritte sulla base della documentazione ufficiale AWS, distribuite sui quattro domini dell'exam guide (Cloud Concepts, Security and Compliance, Cloud Technology and Services, Billing Pricing and Support).",
+        "en": "Original practice exam for the AWS Certified Cloud Practitioner certification: 120 questions written from official AWS documentation, distributed across the four exam guide domains (Cloud Concepts, Security and Compliance, Cloud Technology and Services, Billing, Pricing and Support)."
+      },
+      "url": "exams/aws/EG-AWS-101.enc.json"
+    },
     {
       "id": "nca-7.5",
       "code": "NCA-7.5",
