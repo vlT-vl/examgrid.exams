@@ -53,6 +53,10 @@
       "color": "#FF9900",
       "lastUpdate": "2026-10-06",
       "primaryLanguage": "en",
+      "languages": [
+        "en",
+        "it"
+      ],
       "duration": 120,
       "questionCount": 120,
       "description": {

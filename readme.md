@@ -35,7 +35,8 @@ does not depend on a fixed set of vendors or certifications.
 
 `exams/index.json` is the catalog manifest. It exposes the metadata needed to render the exam
 catalog, including each exam's identifier, official code, title, category, duration, question
-count and localized description.
+count, localized description and, for multilingual exams, the list of available
+languages (`languages`).
 
 ## User access model
 

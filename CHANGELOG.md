@@ -2,6 +2,13 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-10-12
+
+- `AWS Cloud Practitioner Fundamentals` (`EG-AWS-101`) è ora bilingue: domande e
+  risposte sono disponibili in inglese e in italiano. Il catalogo espone il
+  nuovo campo `languages` per indicare le lingue disponibili di ciascun esame.
+- `fabio.circiello` ha accesso anche ai due esami AWS.
+
 ## 2026-10-06
 
 - Aggiunta la nuova categoria `aws` con il primo esame, `AWS Certified Cloud
