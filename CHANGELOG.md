@@ -2,6 +2,14 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-10-28
+
+- Aggiunta la nuova categoria `itil` con il primo esame, `ITIL 5 Foundation`
+  (`EG-ITL-101`): 250 quesiti originali bilingue (inglese e italiano) sui moduli del programma
+  ITIL 5 Foundation: prodotti e servizi digitali, relazione di servizio, sistema
+  del valore, governance, principi guida, catena del valore e pratiche, flussi del
+  valore, miglioramento continuo, quattro dimensioni e integrazione con altri framework.
+
 ## 2026-10-12
 
 - `AWS Cloud Practitioner Fundamentals` (`EG-AWS-101`) è ora bilingue: domande e

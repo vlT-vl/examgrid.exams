@@ -5,6 +5,10 @@
       "icon": "aws",
       "color": "#FF9900"
     },
+    "itil": {
+      "icon": "academic-cap",
+      "color": "#8B5FE6"
+    },
     "nutanix": {
       "icon": "nutanix",
       "color": "#2C5F8A"
@@ -64,6 +68,27 @@
         "en": "Original practice exam for the AWS Certified Cloud Practitioner certification: 120 questions written from official AWS documentation, distributed across the four exam guide domains (Cloud Concepts, Security and Compliance, Cloud Technology and Services, Billing, Pricing and Support)."
       },
       "url": "exams/aws/EG-AWS-101.enc.json"
+    },
+    {
+      "id": "eg-itl-101",
+      "code": "EG-ITL-101",
+      "title": "ITIL 5 Foundation",
+      "category": "itil",
+      "icon": "academic-cap",
+      "color": "#8B5FE6",
+      "lastUpdate": "2026-10-28",
+      "primaryLanguage": "en",
+      "languages": [
+        "en",
+        "it"
+      ],
+      "duration": 120,
+      "questionCount": 250,
+      "description": {
+        "it": "Esame di pratica originale di 250 domande sul programma ITIL 5 Foundation: gestione di prodotti e servizi digitali, relazione di servizio, sistema del valore ITIL, governance, principi guida, catena del valore e pratiche di gestione, flussi del valore, miglioramento continuo quattro dimensioni e integrazione con DevOps e PRINCE2.",
+        "en": "Original practice exam of 250 questions on the ITIL 5 Foundation syllabus: digital product and service management concepts, the service relationship, the ITIL value system, governance, the guiding principles, the value chain and management practices, value streams, continual improvement the four dimensions and the integration with DevOps and PRINCE2."
+      },
+      "url": "exams/itil/EG-ITL-101.enc.json"
     },
     {
       "id": "nca-7.5",
