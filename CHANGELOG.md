@@ -2,6 +2,12 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-10-30
+
+- Corrette due risposte dell'esame `NCA-7.5` (Nutanix Certified Associate): la domanda
+  sulle VM non migrabili durante gli aggiornamenti e quella sulla dashboard da usare con
+  l'indicatore di stato rosso in Prism Element.
+
 ## 2026-10-28
 
 - Aggiunta la nuova categoria `itil` con il primo esame, `ITIL 5 Foundation`
